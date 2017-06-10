@@ -35,7 +35,8 @@ HEADERS += \
     task.h \
     sqlitedatabase.h \
     logger.h \
-    broadcastthread.h
+    broadcastthread.h \
+    defination.h
 
 RESOURCES +=
 

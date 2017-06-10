@@ -22,7 +22,11 @@ public slots:
     void connected();
     void disconnected();
     void readyRead();
-    void TaskResult(QString strTime, QString strContext);
+    ///
+    void LoggerQueryTask(QListLog loglist);
+    void CityQueryTask(QListCity citylist);
+    void CountryQueryTask(QListCountry listcountry);
+    void CountryLanguageQueryTask(QListCountryLanguage listcountrylanguage);
 
 private:
     int nDescriptor;

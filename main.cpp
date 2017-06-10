@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
 
     /// 开机自启动
-    AutoRunWithSystem(true);
+    AutoRunWithSystem(false);
     /// 创建数据库连接
     if (!createConnection())
     {
